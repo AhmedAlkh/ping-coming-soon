@@ -13,6 +13,49 @@ main {
 	justify-content: center;
 }
 
+h1 {
+    font-family: "Libre Franklin";
+    margin-bottom: 0;
+}
+
+.launching {
+    font-family: "Libre Franklin";
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.subscribe {
+    font-family: "Libre Franklin";
+    font-size: 17px;
+}
+
+.input-container {
+    padding-bottom: 28px;
+}
+
+input {
+    padding: 0.438rem;
+    width: 12.5rem;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 59%);
+}
+
+button {
+    padding: 0.472rem;
+    width: 6rem;
+    border-radius: 15px;
+    border-style: none;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    font-size: 12px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(223, 100%, 88%);
+}
+
 /* FOOTER */
 
 footer {
