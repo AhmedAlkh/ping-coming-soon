@@ -56,6 +56,11 @@ button:hover {
     background-color: hsl(223, 100%, 88%);
 }
 
+#message {
+    color: red;
+    font-size: 10px;
+}
+
 /* FOOTER */
 
 footer {
@@ -69,7 +74,37 @@ footer {
  }
 
 footer i {
+    cursor: pointer;
     color: hsl(228, 45%, 44%); 
     padding: 4px;
     
+}
+
+@media screen and (max-width: 600px) {
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	    justify-content: center;
+    }
+
+    button {
+        width: 13.6rem;
+        margin-top: 8px;
+    }
+
+    img {
+        width: 24rem;
+    }
+
+    footer {
+        padding: 20px;
+        margin: 20px;
+        height: 100px;
+    }
+    
+    footer i{
+        margin-bottom: 40px;
+        padding: 20px;
+    }
 }

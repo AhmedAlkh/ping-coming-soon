@@ -21,8 +21,9 @@
     <p class="launching">We are launching <strong>soon!</strong></p>
     <p class="subscribe">Subscribe and get notified</p>
     <div class="input-container">
-      <input type="email" placeholder="Your email address...">
-      <button class="notify-button" type="submit">Notify Me</button>
+      <input id="emailField" type="email" placeholder="Your email address...">
+      <button class="notify-button" onclick="checkEmail()">Notify Me</button>
+      <div id="message"></div>
     </div>
     <img src="/images/illustration-dashboard.png" width="600">
   </main>
